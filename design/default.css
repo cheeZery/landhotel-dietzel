@@ -1,0 +1,188 @@
+@charset "utf-8";
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+	background-color: #ffffcc;
+	background-image: url(bg.png);
+	font-family: Arial, Sans-serif;
+	font-size: 14px;
+}
+
+a {
+	color: #5A544B;
+}
+
+a:active {
+	color: #5A544B;
+}
+
+a:visited {
+	color: #5A544B;
+}
+
+a:hover {
+	color: #FFBB77;
+}
+
+h1 {
+	color: #5A544B;
+	font-size: 35px;
+	font-weight: bold;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+#silvesterTitle {
+	background: #ffffff url("silvester.png") no-repeat left top;
+	background-size: cover;
+	height: 300px;
+	padding: 40px 0px 0px 20px;
+	margin-bottom: 15px;
+}
+
+h2 {
+	/* color: #5A9A60; */
+	color: #756C62;
+	font-size: 20px;
+	font-weight: bold;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+h3 {
+	color: #756C62;
+	font-size: 16px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+table.preistable {
+	border-collapse: collapse;
+}
+
+table.preistable td {
+	padding: 5px;
+}
+
+td.preisTd {
+	text-align: right;
+}
+
+div.hinweisDiv {
+	padding: 5px;
+	color: #5A544B;
+	background-color: #EDE4D3;
+}
+
+#wrapper {
+	margin: 0 auto;
+	width: 1200px;
+	position: relative;
+	background-color: white;
+    box-shadow: 0px 0px 25px #888888;
+}
+
+#header {
+	position: relative;
+	height: 200px;
+	overflow: hidden;
+}
+
+#header img {
+	margin-top: -70px;
+}
+
+#logo {
+	position: absolute;
+	top: 120px;
+	left: 50px;
+}
+
+#navigation {
+	float: left;
+	width: 200px;
+	background-color: #877D71;
+	color: white;
+}
+
+div.navItem {
+	font-weight: bold;
+	padding: 10px;
+}
+
+div.navItemHover {
+	background-color: #968C83;
+	cursor: pointer;
+}
+
+div.navItemSel {
+	background-color: #AFA9A0;
+}
+
+#silvester {
+	background-color: #AF1313;
+}
+
+#content {
+	float: left;
+	width: 700px;
+}
+
+div.contentItem {
+	padding: 20px;
+}
+
+div.aktItem {
+	border-bottom: 1px solid #AFA9A0;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+div.aktBild {
+	float: left;
+}
+
+div.aktBild img {
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+
+span.aktTitel {
+	color: #756C62;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+div.impressum {
+	border-top: 1px solid #C7C2BC;
+	margin-top: 30px;
+	padding: 4px 10px 20px 0px;
+	text-align: right;
+	color: #C7C2BC;
+}
+
+div.impressum a {
+	color: #C7C2BC;
+	text-decoration: none;
+}
+
+#zusatzinfos {
+	float: right;
+	width: 300px;
+}
+
+div.zusatzItem {
+	margin-top: 30px;
+	padding: 10px;
+	color: #5A544B;
+	font-weight: bold;
+	background-color: #EDE4D3;
+}
+
+span.hinweis {
+	color: red;
+}
